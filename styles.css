@@ -69,3 +69,26 @@ h2 {
   margin-top: 10px;
   color: #333;
 }
+
+/* Styles for item list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+ul li span {
+  font-weight: bold;
+}
+
+ul li .quantity {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: green;
+}
